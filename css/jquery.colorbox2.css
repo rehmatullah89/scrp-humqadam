@@ -1,0 +1,80 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox2, #cbox2Overlay, #cbox2Wrapper{position:absolute; top:0; left:0; z-index:999999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cbox2Wrapper {max-width:none;}
+#cbox2Overlay{position:fixed; width:100%; height:100%;}
+#cbox2MiddleLeft, #cbox2BottomLeft{clear:left;}
+#cbox2Content{position:relative;}
+#cbox2LoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cbox2Title{margin:0;}
+#cbox2LoadingOverlay, #cbox2LoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cbox2Previous, #cbox2Next, #cbox2Close, #cbox2Slideshow{cursor:pointer;}
+.cbox2Photo{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cbox2Iframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox2, #cbox2Content, #cbox2LoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cbox2Overlay{background:url(../images/jquery.colorbox/overlay.png) repeat 0 0; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorbox2{outline:0;}
+    #cbox2TopLeft{width:21px; height:21px; background:url(../images/jquery.colorbox/controls.png) no-repeat -101px 0;}
+    #cbox2TopRight{width:21px; height:21px; background:url(../images/jquery.colorbox/controls.png) no-repeat -130px 0;}
+    #cbox2BottomLeft{width:21px; height:21px; background:url(../images/jquery.colorbox/controls.png) no-repeat -101px -29px;}
+    #cbox2BottomRight{width:21px; height:21px; background:url(../images/jquery.colorbox/controls.png) no-repeat -130px -29px;}
+    #cbox2MiddleLeft{width:21px; background:url(../images/jquery.colorbox/controls.png) left top repeat-y;}
+    #cbox2MiddleRight{width:21px; background:url(../images/jquery.colorbox/controls.png) right top repeat-y;}
+    #cbox2TopCenter{height:21px; background:url(../images/jquery.colorbox/border.png) 0 0 repeat-x;}
+    #cbox2BottomCenter{height:21px; background:url(../images/jquery.colorbox/border.png) 0 -29px repeat-x;}
+    #cbox2Content{background:#fff; overflow:hidden;}
+        .cbox2Iframe{background:#fff;}
+        #cbox2Error{padding:50px; border:1px solid #ccc;}
+        #cbox2LoadedContent{margin-bottom:188px;}
+        #cbox2Title{position:absolute; bottom:4px; right:30px; text-align:right; width:100%; color:#949494;}
+        #cbox2Current{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cbox2LoadingOverlay{background:url(../images/jquery.colorbox/loading_background.png) no-repeat center center;}
+        #cbox2LoadingGraphic{background:url(../images/jquery.colorbox/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cbox2Previous, #cbox2Next, #cbox2Slideshow, #cbox2Close {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cbox2Previous:active, #cbox2Next:active, #cbox2Slideshow:active, #cbox2Close:active {outline:0;}
+
+        #cbox2Slideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cbox2Previous{position:absolute; bottom:0; left:0; background:url(../images/jquery.colorbox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cbox2Previous:hover{background-position:-75px -25px;}
+        #cbox2Next{position:absolute; bottom:0; left:27px; background:url(../images/jquery.colorbox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cbox2Next:hover{background-position:-50px -25px;}
+        #cbox2Close{position:absolute; bottom:0; right:0; background:url(../images/jquery.colorbox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cbox2Close:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cbox2IE #cbox2TopLeft,
+.cbox2IE #cbox2TopCenter,
+.cbox2IE #cbox2TopRight,
+.cbox2IE #cbox2BottomLeft,
+.cbox2IE #cbox2BottomCenter,
+.cbox2IE #cbox2BottomRight,
+.cbox2IE #cbox2MiddleLeft,
+.cbox2IE #cbox2MiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+#cbox2School
+{
+  float       :  none !important;
+  padding     :  10px;
+  background  :  #eeeeee;
+  height      :  130px;
+  min-width   :  600px;
+  overflow    :  hidden;
+}

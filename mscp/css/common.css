@@ -1,0 +1,588 @@
+
+:focus
+{
+  -moz-outline-style  :  none;
+}
+
+html
+{
+
+}
+
+body
+{
+  margin  :  0px;
+}
+
+table
+{
+  border-collapse  :  collapse;
+  border-spacing   :  0;
+  table-layout     :  fixed;
+}
+
+body, p, div, td, span, a
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  11px;
+  color        :  #333333;
+  
+  outline      :  none;  
+}
+
+h1
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-weight  :  bold;
+  font-size    :  21px;
+  color        :  #333333;
+  
+  text-shadow  :  1px 1px 0px #999999;
+  
+  margin       :  0px 0px 15px 0px;
+  padding      :  0px;
+}
+
+h2
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-weight  :  bold;
+  font-size    :  17px;
+  color        :  #333333;
+  
+  margin       :  0px 0px 5px 0px;
+  padding      :  0px;
+}
+
+h3
+{
+  font-family    :  verdana, arial, sans-serif;
+  font-weight    :  bold;
+  font-size      :  14px;
+  color          :  #444444;
+  
+  margin         :  0px 0px 5px 0px;
+  padding        :  0px;
+  border-bottom  :  solid 2px #444444;
+}
+
+h3 a
+{
+  font-family    :  verdana, arial, sans-serif;
+  font-weight    :  bold;
+  font-size      :  14px;
+  color          :  #444444;
+  
+  text-decoration  :  none;
+}
+
+h4
+{
+  font-family    :  verdana, arial, sans-serif;
+  font-weight    :  bold;
+  font-size      :  12px;
+  color          :  #666666;
+  
+  margin         :  0px 0px 10px 0px;
+  padding        :  0px;
+  border-bottom  :  solid 1px #666666;
+}
+
+h5
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-weight  :  bold;
+  font-size    :  14px;
+  color        :  #333333;
+  
+  margin       :  0px;
+  padding      :  0px;
+}
+
+a.noLine
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  11px;
+  color            :  #000000;
+   
+  text-decoration  :  none;
+}
+
+a.noLine:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  11px;
+  color            :  #444444;
+   
+  text-decoration  :  none;
+}
+
+a img
+{
+  border  :  none;
+}
+
+
+div.br5
+{
+  clear        :  both;
+  line-height  :  5px;
+  height       :  5px;
+  font-size    :  1px;
+}
+
+div.br10
+{
+  clear        :  both;
+  line-height  :  10px;
+  height       :  10px;
+  font-size    :  1px;
+}
+
+hr
+{
+  border-top     :  dotted 1px #999999;
+  border-right   :  solid 1px #ffffff;
+  border-bottom  :  solid 1px #ffffff;
+  border-left    :  solid 1px #ffffff;
+  margin         :  20px 0px 20px 0px;
+}
+
+.hidden
+{
+  display  :  none;
+}
+
+.noPadding
+{
+  padding  :  0px;
+}
+
+.fLeft
+{
+  float  :  left;
+}
+
+.fRight
+{
+  float  :  right;
+}
+
+.gray
+{
+  color  :  #888888;
+}
+
+.green
+{
+  color  :  #378e2b;
+}
+
+
+form
+{
+  margin  :  0px;
+}
+
+form select
+{
+  max-width  :  288px;
+}
+
+.dataTables_wrapper select
+{
+  max-width  :  400px;
+}
+
+label
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  12px;
+  color        :  #333333;
+  
+  display      :  block;
+  margin       :  0px;
+  padding      :  0px 0px 2px 0px;
+}
+
+label span
+{
+  font-size  :  10px;
+  color      :  #bbbbbb;
+}
+
+label span.required
+{
+  color  :  #be0000;
+}
+
+label span a, .ui-widget-content label span a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  10px;
+  color            :  #bbbbbb;
+  
+  text-decoration  :  none;
+}
+
+label span a
+{
+  color  :  #888888;
+}
+
+label span a:hover, .ui-widget-content label span a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  10px;
+  color            :  #666666;
+  
+  text-decoration  :  none;
+}
+
+
+ul
+{
+  margin      :  5px 0px 5px 20px;
+  padding     :  0px;
+  list-style  :  square;
+}
+
+ul li
+{
+  padding  :  2px 0px 2px 0px;
+  margin   :  0px;
+}
+
+ul.list li
+{
+  margin   :  0px;
+  padding  :  3px 0px 3px 0px;
+}
+
+ul.list li a
+{
+  font-size        :  12px;
+  color            :  #666666;
+  text-decoration  :  none;
+}
+
+ul.list li a:hover
+{
+  color            :  #333333;
+  text-decoration  :  underline;
+}
+
+ul.list li a.selected
+{
+  font-weight      :  bold;
+  color            :  #000000;
+  text-decoration  :  none;
+}
+
+
+#MainDiv
+{
+  min-width  :  1001px;
+}
+
+#Body
+{
+  clear       :  both;
+  min-height  :  451px;
+}
+
+#Body #Page #Indicator
+{
+  float         :  right;
+  display       :  none;
+  width         :  48px;
+  height        :  48px;
+  margin-right  :  22px;
+}
+
+#Body #Page img
+{
+  float         :  left;
+  display       :  block;
+  margin-right  :  5px;
+  width         :  48px;
+  height        :  48px;
+}
+
+#Footer
+{
+  line-height  :  60px;
+  
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  11px;
+  color        :  #eeeeee;    
+  
+  text-align   :  center;
+  text-shadow  :  1px 1px 0 #000000;
+}
+
+#Footer a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  11px;
+  color            :  #eeeeee;  
+
+  text-shadow      :  1px 1px 0 #000000;
+  text-decoration  :  none;
+}
+
+#Footer a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  11px;
+  color            :  #aaaaaa;  
+
+  text-shadow      :  1px 1px 0 #000000;
+  text-decoration  :  none;
+}
+
+.padding10
+{
+  padding  :  8px;
+}
+
+body.popupBg
+{
+  background  :  #ffffff;
+}
+
+
+#PopupDiv
+{
+  margin   :  0px;
+  padding  :  20px;
+}
+
+
+.alert, .error, .success, .info, .info.noHide
+{
+  clear                  :  both;
+  padding                :  10px 10px 10px 35px;
+  margin-bottom          :  15px;
+  min-height             :  16px;
+  line-height            :  16px;
+  cursor                 :  pointer;
+  
+  -moz-border-radius     :  4px;
+  border-radius          :  4px;
+  -webkit-border-radius  :  4px; 
+  
+  font-family            :  verdana, arial, sans-serif;
+  font-size              :  11px;
+  color                  :  #000000;
+}
+
+.alert
+{
+  background  :  #feffc8 url('../images/icons/alert.png') 10px 10px no-repeat;
+  border      :  solid 1px #f1aa2d;
+}
+
+.error
+{
+  background  :  #fdcea4 url('../images/icons/error.png') 10px 10px no-repeat;
+  border      :  solid 1px #c44509;
+}
+
+.success
+{
+  background  :  #d4f684 url('../images/icons/success.png') 10px 10px no-repeat;
+  border      :  solid 1px #739f1d;
+}
+
+.info
+{
+  background  :  #c3e4fd url('../images/icons/info.png') 10px 10px no-repeat;
+  border      :  solid 1px #688fdc;
+}
+
+.info.noHide
+{
+  background  :  #eeeeee url('../images/icons/info.gif') 10px 10px no-repeat;
+  border      :  solid 1px #cccccc;
+}
+
+.icon, .icnDelete, .icnEdit, .icnView, .icnToggle, .icnExport, .icnDownload, .icnRestore, .icnPicture, .icnThumb, .icnEmail, .icnStats, .icnVideo, .icnStatus, .icnFlash, .icnScript, .icnFeatured, .icnLogo, .icnReset
+{
+  margin  :  0px 3px 0px 3px;
+  cursor  :  pointer;
+  width   :  16px;
+  height  :  16px;
+}
+
+.dlgConfirm
+{
+  padding  :  10px 5px 10px 5px;
+}
+
+.dlgConfirm span
+{
+  float   :  left;
+  margin  :  0px 7px 20px 0px;
+}
+
+
+/* Login & Password Page */
+
+#Tabs
+{
+  width   :  550px;
+  margin  :  80px auto 0px auto;
+}
+
+#Tabs .tab
+{
+  padding     :  30px 30px 30px 190px;
+  min-height  :  152px;
+}
+
+#Tabs input.textbox
+{
+  font-size  :  13px;
+  width      :  96%;
+  padding    :  6px;
+}
+
+
+/* My Account Page */
+
+#frmMyAccount, #frmMyPassword
+{
+  width  :  500px;
+}
+
+#frmMyAccount input.textbox, #frmMyPassword input.textbox
+{
+  font-size  :  13px;
+  width      :  50%;
+}
+
+#frmMyAccount select
+{
+  font-size  :  13px;
+}
+
+
+
+/*   Navigator  */
+
+ul#Navigator
+{
+  margin      :  5px 0px 0px 0px;
+  padding     :  0px;
+  list-style  :  none;
+}
+
+ul#Navigator li
+{
+  float        :  left;
+  width        :  320px;
+  padding      :  5px;
+  margin       :  10px 20px 10px 0px;
+  border       :  solid 1px #dddddd;
+  background   :  #f6f6f6;
+  line-height  :  16px;
+}
+
+ul#Navigator li:hover
+{
+  border      :  solid 1px #cccccc;
+  background  :  #e6e6e6;
+}
+
+ul#Navigator li .picture
+{
+  border        :  solid 1px #dddddd;
+  padding       :  1px;
+  background    :  #ffffff;
+  margin-right  :  12px;
+  float         :  left;
+}
+
+ul#Navigator li:hover .picture
+{
+  border  :  solid 1px #cccccc;
+}
+
+ul#Navigator li .picture img
+{
+  width   :  96px;
+  height  :  96px;
+}
+
+ul#Navigator li b, ul#Navigator li a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  bold;
+  font-size        :  11px;
+  color            :  #444444; 
+  
+  display          :  block;
+  text-decoration  :  none;
+}
+
+ul#Navigator li a:hover
+{
+  color            :  #000000; 
+  text-decoration  :  none;
+}
+
+ul#Navigator li i
+{
+  color  :  #666666;
+}
+
+ul#Navigator li.withdrawan
+{
+  border-color  :  #fc7a7a;
+  background    :  #fef1f1;
+}
+
+ul#Navigator li.graduated
+{
+  border-color  :  #4baa4b;
+  background    :  #f3fdf3;
+}
+
+ul#Navigator li b.withdrawan, #Profile b.withdrawan, .fail
+{
+  color  :  #ff0000;
+}
+
+ul#Navigator li b.graduated, .pass
+{
+  color  :  #00aa00;
+}
+
+ul#Navigator li b.gray, .hold
+{
+  color  :  #777777;
+}
+
+
+.stats
+{
+  display     :  inline-block;
+  background  :  #666666;
+  border      :  solid 1px #444444;
+  color       :  #ffffff;
+  padding     :  2px 8px 2px 8px;
+  margin      :  0px 0px 0px 10px;
+  min-width   :  32px;
+}
+
+
+h3.ui-accordion-header a
+{
+  font-size  :  11px;
+}
+
+.plupload_filelist_header .plupload_cell, .plupload_filelist_footer .plupload_upload_status, .plupload_filelist_footer .plupload_total_status, .plupload_filelist_footer .plupload_total_file_size
+{
+  color  :  #ffffff;
+}

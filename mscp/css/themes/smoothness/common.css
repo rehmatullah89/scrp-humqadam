@@ -1,0 +1,589 @@
+
+body
+{
+  background  :  #262626;
+}
+
+input.textbox, select, textarea
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-size              :  11px;
+  color                  :  #666666;
+   
+  padding                :  3px;
+  border                 :  solid 1px #888888;
+  background             :  #f9f9f9;
+  
+  -moz-border-radius     :  3px;
+  border-radius          :  3px;
+  -webkit-border-radius  :  3px;  
+}
+
+select
+{
+  padding  :  2px;
+}
+
+input.textbox:focus, select:focus, textarea:focus, .multiSelect:hover
+{
+  border      :  solid 1px #666666;
+  background  :  #ffffec;
+}
+
+.multiSelect, div.textbox
+{
+  width                  :  280px;
+  height                 :  95px;
+  overflow               :  auto;
+  border                 :  solid 1px #888888;
+  padding                :  3px;
+  background             :  #f9f9f9;
+  
+  -moz-border-radius     :  3px;
+  border-radius          :  3px;
+  -webkit-border-radius  :  3px;    
+}
+
+
+#Header
+{
+  background     :  #181818;
+  border-bottom  :  solid 1px #7a7a7a;
+}
+
+#Header img
+{
+  margin  :  24px 0px 24px 20px;
+}
+
+#Header #Sw3Solutions
+{
+  float   :  right;
+  margin  :  20px 22px 0px 0px;
+  width   :  280px;
+  height  :  70px;
+}
+
+#Header #Sw3Solutions img
+{
+  margin  :  0px;
+}
+
+#Header #Welcome
+{
+  float        :  right;
+  padding      :  28px 20px 0px 0px;
+  width        :  500px;
+  height       :  20px;
+  line-height  :  20px;
+  color        :  #f2f2f2;
+  text-align   :  right;
+}
+
+#Header #Welcome span
+{
+  color  :  #888888;
+}
+
+#Header #Welcome a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  normal;
+  font-size        :  11px;
+  color            :  #696969;
+  
+  text-decoration  :  none;
+
+  background       :  #262626;
+  border           :  solid 1px #2e2e2e;
+  display          :  block;
+  float            :  right;
+  padding          :  2px 8px 4px 22px;
+  margin           :  0px 0px 0px 8px;   
+  position         :  relative;
+  line-height      :  14px;
+}
+
+#Header #Welcome a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  normal;
+  font-size        :  11px;
+  color            :  #888888;
+  
+  text-decoration  :  none;
+
+  background       :  #2c2c2c;
+  border           :  solid 1px #333333;
+  display          :  block;
+  float            :  right;
+  padding          :  2px 8px 4px 22px;
+  margin           :  0px 0px 0px 8px;
+  position         :  relative;
+  line-height      :  14px;
+}
+
+#Header #Welcome a span
+{
+  position  :  absolute;
+  left      :  5px;
+  top       :  1px;
+}
+
+
+#Navigation
+{
+  background   :  #515151 url('../../../images/themes/smoothness/nav-bg.jpg') repeat-x;
+  height       :  43px;
+  line-height  :  40px;
+  padding      :  0px 10px 0px 20px;
+}
+
+#Navigation ul
+{
+  margin        :  1px 0px 0px 0px;
+  padding       :  0px; 
+  list-style    :  none;
+  float         :  left;
+  border-right  :  solid 1px #3b3b3b;
+  border-left   :  solid 1px #666666;  
+}
+
+#Navigation ul li
+{
+  float     :  left; 
+  position  :  relative;
+  margin    :  0px;
+  padding   :  0px;  
+  z-index   :  500; 
+}
+
+#Navigation ul li a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  bold;
+  font-size        :  12px;
+  color            :  #ededed;  
+
+  text-shadow      :  1px 1px 0 #2f2f2f;
+  text-decoration  :  none;
+  
+  display          :  block;
+  background       :  #515151;
+  border-left      :  solid 1px #3b3b3b;
+  border-right     :  solid 1px #666666;
+  padding          :  0px 22px 0px 10px;
+  line-height      :  38px;
+  height           :  38px;
+}
+
+#Navigation ul li a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  bold;
+  font-size        :  12px;
+  color            :  #ededed;  
+
+  text-shadow      :  1px 1px 0 #2f2f2f;
+  text-decoration  :  none;
+  
+  display          :  block;
+  background       :  #4f4f4f;
+  border-left      :  solid 1px #3b3b3b;
+  border-right     :  solid 1px #666666;
+  padding          :  0px 22px 0px 10px;
+  line-height      :  38px;
+  height           :  38px;
+}
+
+#Navigation ul li a img
+{
+  position  :  absolute;
+  right     :  10px;
+  top       :  18px;
+  width     :  7px;
+  height    :  4px;
+}
+
+#Navigation ul li ul
+{
+  margin                 :  0px;
+  padding                :  5px; 
+  list-style             :  none;
+  position               :  absolute; 
+  left                   :  0px;
+  display                :  none;
+  border                 :  solid 1px #5d5d5d;
+  background             :  #ffffff;
+
+  -moz-box-shadow        :  0px 0px 10px 0px #000000;
+  -webkit-box-shadow     :  0px 0px 10px 0px #000000;
+  box-shadow             :  0px 0px 10px 0px #000000;
+  
+  -moz-border-radius     :  0px 0px 6px 6px;
+  border-radius          :  0px 0px 6px 6px;
+  -webkit-border-radius  :  0px 0px 6px 6px;    
+}
+
+#Navigation ul li ul li
+{
+  float  :  left; 
+  width  :  160px;
+}
+
+#Navigation ul li ul li a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  normal;
+  font-size        :  11px;
+  color            :  #515151;  
+
+  text-shadow      :  none;
+  text-decoration  :  none;
+  
+  display          :  block;
+  background       :  #f0f0f0;
+  border-left      :  none;
+  border-right     :  none;
+  border-bottom    :  dotted 1px #cccccc;
+  padding          :  0px 10px 0px 10px;
+  line-height      :  28px;
+  height           :  28px;
+}
+
+#Navigation ul li ul li a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  normal;
+  font-size        :  11px;
+  color            :  #333333;  
+
+  text-shadow      :  none;
+  text-decoration  :  none;
+  
+  display          :  block;
+  background       :  #f9f9f9;
+  border-left      :  none;
+  border-right     :  none;  
+  border-bottom    :  dotted 1px #cccccc;
+  padding          :  0px 10px 0px 10px;
+  line-height      :  28px;
+  height           :  28px;
+}
+
+
+#Body #Page
+{
+  padding      :  10px 0px 0px 20px;
+  
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  12px;
+  color        :  #979797;
+
+  text-shadow  :  1px 1px 0px #000000;
+}
+
+#Body #Page h1
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-weight  :  bold;
+  font-size    :  21px;
+  color        :  #ffffff;
+  
+  text-shadow  :  2px 2px 0px #000000;
+  
+  margin       :  2px 0px 1px 0px;
+  padding      :  0px;
+}
+
+#Body #Page a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  12px;
+  color            :  #979797;  
+
+  text-shadow      :  1px 1px 0 #000000;
+  text-decoration  :  none;
+}
+
+#Body #Page a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  12px;
+  color            :  #c0c0c0;  
+
+  text-shadow      :  1px 1px 0 #000000;
+  text-decoration  :  underline;
+}
+
+#Body #Page span
+{ 
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  12px;
+  color        :  #c0c0c0;
+
+  text-shadow  :  1px 1px 0px #000000;
+}
+
+
+#Body #Contents
+{
+  clear                  :  both;
+  background             :  #fefefe;
+  margin                 :  20px 20px 0px 20px;
+  padding                :  20px;
+  min-height             :  442px;
+  _height                :  442px;
+  #height                :  442px;
+  
+  -moz-border-radius     :  4px;
+  border-radius          :  4px;
+  -webkit-border-radius  :  4px;   
+  
+  -moz-box-shadow        :  0px 0px 10px 10px #191919;
+  -webkit-box-shadow     :  0px 0px 10px 10px #191919;
+  box-shadow             :  0px 0px 10px 10px #191919;
+}
+
+
+.grid
+{
+  border  :  solid 1px #888888;
+}
+
+.grid .header
+{
+  background  :  #cccccc url('../../../images/themes/smoothness/tbl-header-bg.png') left center;
+}
+
+.grid .header td
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-weight  :  bold;
+  font-size    :  11px;
+  color        :  #ffffff;
+  
+  padding      :  7px 6px 7px 6px;  
+}
+
+.grid .header table td
+{
+  padding  :  0px;
+}
+
+.grid .header td a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  bold;
+  font-size        :  11px;
+  color            :  #ffffff;
+   
+  text-decoration  :  underline;
+}
+  
+.grid .header td a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  bold;
+  font-size        :  11px;
+  color            :  #eeeeee;
+   
+  text-decoration  :  none;
+}
+
+.grid td
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  11px;
+  color        :  #000000;
+}
+
+.grid .even
+{
+  background  :  #f6f6f6;
+}
+
+.grid .even:hover
+{
+  background  :  #fff7d9;
+}
+
+.grid .odd
+{
+  background  :  #eeeeee;
+}
+
+.grid .odd:hover
+{
+  background  :  #fff7d9;
+}
+
+
+.grid .footer
+{
+  background  :  #cccccc url('../../../images/themes/smoothness/tbl-footer-bg.png') left center repeat-x;
+}
+
+.grid .footer td
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-weight  :  bold;
+  font-size    :  11px;
+  color        :  #ffffff;
+  
+  padding      :  7px 6px 7px 6px;  
+}
+
+.grid tr.odd a, .grid tr.even a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  11px;
+  color            :  #000000;
+   
+  text-decoration  :  none;
+}
+  
+.grid tr.odd a:hover, .grid tr.even a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-size        :  11px;
+  color            :  #333333;
+   
+  text-decoration  :  underline;
+}
+
+
+/* Dashboard & Modules Default Page */
+
+fieldset
+{
+  clear                  :  both;
+  padding                :  0px 10px 22px 10px;
+  margin                 :  40px 0px 10px 0px;
+  border                 :  solid 2px #aaaaaa;
+  -moz-border-radius     :  4px;
+  border-radius          :  4px;
+  -webkit-border-radius  :  4px;
+}
+
+fieldset.first
+{
+  margin-top  :  10px;
+}
+
+fieldset legend
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-weight            :  bold;
+  font-size              :  13px;
+  color                  :  #333333;
+  
+  width                  :  120px;
+  padding                :  3px 15px 3px 15px;
+  margin                 :  0px 0px 0px -12px;
+  border                 :  solid 2px #aaaaaa;
+  background             :  #eeeeee;  
+  -moz-border-radius     :  4px;
+  border-radius          :  4px;
+  -webkit-border-radius  :  4px;
+}
+
+fieldset legend:hover
+{
+  border      :  solid 2px #999999;
+  background  :  #dddddd;
+}
+
+fieldset legend a
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  bold;
+  font-size        :  13px;
+  color            :  #333333;
+  
+  text-decoration  :  none;
+}
+
+fieldset legend a:hover
+{
+  font-family      :  verdana, arial, sans-serif;
+  font-weight      :  bold;
+  font-size        :  13px;
+  color            :  #000000;
+  
+  text-decoration  :  none;
+}
+
+fieldset ul
+{
+  clear       :  both;
+  padding     :  0px;
+  margin      :  0px 0px 0px 0px;
+  list-style  :  none;
+}
+
+fieldset ul li
+{
+  display  :  inline;
+  float    :  left;
+  margin   :  20px 15px 0px 15px;
+  padding  :  0px;
+}
+
+fieldset ul li img
+{
+  width   :  48px;
+  height  :  48px;
+}
+
+fieldset ul li span
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  12px;
+  color        :  #000000;
+  
+  display      :  block;
+  margin-top   :  10px;
+}
+
+fieldset ul li a
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-size              :  12px;
+  color                  :  #000000;
+
+  text-decoration        :  none;
+  text-align             :  center;  
+  text-shadow            :  1px 1px 0px #f6f6f6;
+
+  display                :  block;
+  min-width              :  100px;
+  max-width              :  150px;
+  padding                :  15px 10px 15px 10px;
+  border                 :  solid 1px #cccccc;
+  background             :  #f6f6f6;  
+  -moz-border-radius     :  4px;
+  border-radius          :  4px;
+  -webkit-border-radius  :  4px;  
+}
+
+fieldset ul li a:hover
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-size              :  12px;
+  color                  :  #000000;
+
+  text-decoration        :  none;
+  text-align             :  center;
+  text-shadow            :  1px 1px 0px #ffffff;
+
+  display                :  block;
+  min-width              :  100px;
+  max-width              :  180px;
+  padding                :  15px 10px 15px 10px;
+  border                 :  solid 1px #aaaaaa;
+  background             :  #eeeeee;  
+  -moz-border-radius     :  4px;
+  border-radius          :  4px;
+  -webkit-border-radius  :  4px;  
+}

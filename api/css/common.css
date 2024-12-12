@@ -1,0 +1,263 @@
+
+:focus
+{
+  -moz-outline-style  :  none;
+}
+ 
+html
+{
+  -webkit-text-size-adjust  :  none;
+}
+ 
+body
+{   
+  margin      :  0px;
+  padding     :  0px;
+  background  :  #ffffff;
+}
+
+@-moz-document url-prefix( )
+{
+  body { margin-right:auto !important; }
+}
+ 
+body, div, p, span, li, a, td, b, i
+{
+  font-family  :  verdana, arial, sans-serif;
+  font-size    :  12px;
+  color        :  #666666;
+  position     :  relative;  
+}
+
+small
+{
+  font-family  :  arial, verdana, sans-serif;
+  font-weight  :  normal;
+  font-size    :  11px;
+  color        :  #ffffff;
+}
+ 
+h1
+{
+  font-family     :  verdana, arial, sans-serif;
+  font-weight     :  bold;
+  font-size       :  30px;
+  color           :  #ffffff;
+
+  text-transform  :  uppercase;
+  
+  padding         :  0px;
+  margin          :  0px;
+}
+
+h1.gray
+{
+  color  :  #666666;
+}
+ 
+a
+{
+  color            :  #ffffff;
+  text-decoration  :  none;
+}
+
+a:hover
+{
+  color            :  #ffffff;
+  text-decoration  :  underline;
+}
+
+a.selected
+{
+  font-weight  :  bold;
+}
+
+a.button, a.button:hover
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-weight            :  bold;
+  font-size              :  16px;
+  color                  :  #ffffff;
+  
+  text-decoration        :  none;
+ 
+  display                :  inline-block;
+  padding                :  4px 7px 4px 7px;
+  border                 :  solid 2px #7cb609;
+  background             :  #669900;
+  cursor                 :  pointer;
+  -webkit-border-radius  :  3px;
+  -webkit-appearance     :  none;
+}
+ 
+a img
+{
+  border  :  none;
+}
+
+.br
+{
+  clear        :  both;
+  font-size    :  0px;
+  line-height  :  0px;
+  height       :  0px;
+}
+
+.br5
+{
+  clear        :  both;
+  font-size    :  1px;
+  line-height  :  5px;
+  height       :  5px;
+}
+
+.br10
+{
+  clear        :  both;
+  font-size    :  1px;
+  line-height  :  10px;
+  height       :  10px;
+}
+
+.hidden
+{
+  display  :  none;
+}
+
+.fLeft
+{
+  float  :  left;
+}
+
+.fRight
+{
+  float  :  right;
+}
+
+.hidden
+{
+  display  :  none;
+}
+
+form
+{
+  clear   :  both;
+  margin  :  0px;  
+}
+
+label
+{
+  display  :  inline-block;
+  padding  :  0px;
+  margin   :  0px;
+}
+ 
+input.textbox, textarea
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-weight            :  bold;
+  font-size              :  13px;
+  color                  :  #444444;
+ 
+  padding                :  6px 4px 6px 4px;
+  background-color       :  #ffffff;
+  border                 :  solid 2px #c8c6c7;
+  -webkit-border-radius  :  0px;
+  -webkit-appearance     :  none;   
+}
+
+select
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-size              :  14px;
+  color                  :  #666666;
+               
+  text-indent            :  5px;
+ 
+  padding                :  5px;
+  margin                 :  0px;
+  line-height            :  20px;
+  height                 :  30px;
+  border                 :  solid 1px #b9b9b9;
+  background             :  #ffffff url('../images/icons/arrow.png') 97% 12px no-repeat;
+  -webkit-appearance     :  listbox;
+  -webkit-border-radius  :  6px;
+  outline                :  none;
+}
+ 
+input.button
+{
+  font-family            :  verdana, arial, sans-serif;
+  font-weight            :  bold;
+  font-size              :  16px;
+  color                  :  #ffffff;
+ 
+  padding                :  4px 7px 4px 7px;
+  border                 :  solid 2px #7cb609;
+  background             :  #669900;
+  cursor                 :  pointer;
+  -webkit-border-radius  :  3px;
+  -webkit-appearance     :  none;
+}
+  
+header, section, footer, aside, nav, article, figure
+{
+  clear     :  both;
+  display   :  block;
+  position  :  relative;
+}
+  
+header
+{
+  padding     :  10px;  
+  height      :  35px;
+  background  :  #ffffff;
+  text-align  :  center;
+  overflow    :  hidden;
+}
+
+header label
+{
+  height         :  35px;
+  line-height    :  35px;
+  padding-right  :  5px;
+}
+
+section
+{
+  font-family  :  arial, helvetica, sans-serif;
+  font-weight  :  normal;
+  font-size    :  11px;
+  color        :  #ffffff;
+  text-align   :  left;
+}
+
+
+footer
+{
+  font-family  :  arial, helvetica, sans-serif;
+  font-weight  :  normal;
+  font-size    :  11px;
+  color        :  #ffffff;
+  text-align   :  center;
+}
+ 
+footer a
+{
+  font-family      :  arial, helvetica, sans-serif;
+  font-weight      :  normal;
+  font-size        :  11px;
+  color            :  #ffffff;
+   
+  text-decoration  :  none;
+}
+
+footer a:hover
+{
+  font-family      :  arial, helvetica, sans-serif;
+  font-weight      :  normal;
+  font-size        :  11px;
+  color            :  #ffffff;
+   
+  text-decoration  :  underline;
+}
